@@ -24,7 +24,7 @@ int main(void)
 				putchar(digit2 + '0');
 				if (digit1 + digit2 != 17)
 				{
-					putchar(';');
+					putchar(',');
 					putchar(' ');
 				}
 			}
