@@ -2,8 +2,8 @@
 
 /**
 * main - entry
-* 
-* Description: prints the alphabet in lowercase
+*
+* Description: prit alphabet
 *
 * Return: 0
 */
