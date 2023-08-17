@@ -4,11 +4,11 @@
  * print_line
  *
  * Return: Always 0.
- */
+*/
 
 void print_line(int n)
 {
-	in lnChr;
+	int lnChr;
 
 	if (n <= 0)
 		_putchar('\n');
