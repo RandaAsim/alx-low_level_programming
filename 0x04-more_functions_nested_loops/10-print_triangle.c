@@ -8,11 +8,11 @@
  * Return: 0
 */
 
-void print_tringle(int size)
+void print_triangle(int size)
 {       
         int hght, base;
         
-        if (size <= 10)
+        if (size <= 0)
                 _putchar('\n');
         else
 	{
