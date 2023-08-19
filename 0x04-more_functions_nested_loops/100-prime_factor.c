@@ -31,19 +31,19 @@ double _sqrt(double x)
 
 void largest_prime_factor(long int num)
 {
-	int prmnm, largest;
+	int prmNu, largest;
 
 	/*first divide with the smallest prime number (two)*/
 	while (num % 2 == 0)
-		num = num / prmnm;
+		num = num / 2;
 
 	/*num must to be odd so we proceed to the next prime number (plus two)*/
-	for (prmnm = 3; prmnm <= _sqrt(num); prmnm += 2)
+	for (prmNu = 3; prmNu <= _sqrt(num); prmNu += 2)
 	{
-		while (num % prmnm == 0)
+		while (num % prmNu == 0)
 		{
-			num = num / prmnm;
-			largest = prmnm;
+			num = num / prmNu;
+			largest = prmNu;
 		}
 	}
 
