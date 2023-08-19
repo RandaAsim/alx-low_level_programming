@@ -2,7 +2,8 @@
 
 /**
  * more_numbers _ print 0 - 14 ten times and you
- * 		can only use _putchar three times
+ *		can only use _putchar three times
+ *	Description:  function that prints 10 times the numbers
  *
  * Return: Always 0.
 */
@@ -11,7 +12,7 @@ void more_numbers(void)
 {
 	int num, row, count;
 
-	for (row = 1; row <=10; row++)
+	for (row = 1; row <= 10; row++)
 	{
 		for (count = 0; count <= 14; count++)
 		{
