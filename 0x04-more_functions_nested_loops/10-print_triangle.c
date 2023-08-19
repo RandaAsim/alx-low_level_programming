@@ -6,15 +6,15 @@
  * @size: size of triangle
  *
  * Return: 0
-*/
+ */
 
 void print_triangle(int size)
-{       
-        int hght, base;
-        
-        if (size <= 0)
-                _putchar('\n');
-        else
+{
+	int hght, base;
+
+	if (size <= 0)
+		_putchar('\n');
+	else
 	{
 		for (hght = 1; hght <= size; hght++)
 		{
