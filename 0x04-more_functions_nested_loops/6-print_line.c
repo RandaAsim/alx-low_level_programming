@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_line
+ * print_line - print a straight line
  *
- * Return: Always 0.
- */
+ * @n: is the number of _ character
+ *		should be printed
+*/
 
 void print_line(int n)
 {
