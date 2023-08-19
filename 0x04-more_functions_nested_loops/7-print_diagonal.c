@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_diagonal - print a diagonal line
  *
- * Return: Always 0.
- */
+ * @n: the number of line the \ chatacter
+ *		should printed
+*/
 
 void print_diagonal(int n)
 {
@@ -18,7 +19,7 @@ void print_diagonal(int n)
 		{
 			for (space = 1; space <= postn; space++)
 				_putchar(' ');
-				_putchar(92);
+			_putchar(92);/*is equl to '/' char*/
 				_putchar('\n');
 		}
 	}
