@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int - swaps the value of tow integer 
+ * swap_int - swaps the value of tow integer
  *		using to input
  *
  * @a: input parameter 1
