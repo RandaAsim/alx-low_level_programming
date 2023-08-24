@@ -20,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 		r++;
 	}
 
-	dest[ri] = '\0';
+	dest[r] = '\0';
 
 	return (dest);
 }
