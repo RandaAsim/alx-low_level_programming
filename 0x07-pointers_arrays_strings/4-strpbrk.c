@@ -7,11 +7,11 @@
  * Return: pointer to byte in s that matches one of the bytes in accept or NULL
  */
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	int i = 0;
 	int j;
-	int *p;
+	char *p;
 
 	while (s[i] != '\0')
 	{
