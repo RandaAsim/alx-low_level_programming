@@ -19,7 +19,7 @@ int main(void)
 		if (add > 4000000)
 			break;
 		if ((add % 2) == 0)
-			total =total + add;
+			total = total + add;
 		n = m;
 		m = add;
 	}
