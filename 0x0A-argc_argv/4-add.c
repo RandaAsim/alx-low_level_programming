@@ -11,12 +11,13 @@
 int main(int argc, char *argv[])
 {
 	int r;
-	int m,n;
+	int m, n;
+
 	r = 0;
 
 	for (m = 1; m < argc; m++)
 	{
-		for (n =0; argv[m][n] != '\0'; n++)
+		for (n = 0; argv[m][n] != '\0'; n++)
 		{
 			if (argv[m][n] < '0' || argv[m][n] > '9')
 			{
