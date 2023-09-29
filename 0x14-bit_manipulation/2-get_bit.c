@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * print_binary - func print binary representation of number
- * @n: integer
- * Return: Always 0.
+ * get_bit - func return value of bit in a given index.
+ * @n: an intger
+ * @index: index
+ * Return: index.
  */
 
-void print_binary(unsigned long int n)
+int get_bit(unsigned long int n, unsigned int index)
 {
-	if (n > 1)
+	if (index >= sizeof(unsigned long int) * 8)
 	{
-		print_binary(n >> 1);
+		return (-1);
 	}
-	_putchar((n & 1) + '0');
+	return ((n >> index) & 1);
 }
